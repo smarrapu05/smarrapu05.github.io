@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link href="styles/style.css" rel="stylesheet" />
+        <link rel="icon" type="image/png" href="images/securitycambr.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Adamina&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <title>Saketh | Projects</title>
+    </head>
+
+    <body>
+        <nav class="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <!--
+                <li><a href="blog.html">Blog</a></li>
+                -->
+            </ul>
+        </nav>
+
+        <main  class="page-content">
+            <div class="intro">
+                <div class="intro-photo">
+                    <img src="images/CongoTetra.JPG" alt="Congo Tetra from my trip to the Atlanta Aquarium"/>
+                </div>
+                <div class="intro-text">
+                    <h1>Saketh Marrapu</h1>
+                    <h2>Student. Data Scientist? Statistician?</h2>
+                    <h3>
+                        Email: <a href="mailto:saketh.marrapu@gmail.com">saketh.marrapu@gmail.com</a> <br>
+                        GitHub: <a href="https://github.com/smarrapu05">@smarrapu05</a> <br>
+                        LinkedIn: <a href="https://www.linkedin.com/in/saketh-marrapu-103a682b2/">saketh-marrapu-103a682b2/</a>
+                    </h3>
+                </div>
+            </div>
+            <hr>
+
+            <section class="projects-list" aria-label="Projects">
+                <a class="project-card" href="https://github.com/smarrapu05/stat656final" target="_blank" rel="noopener noreferrer">
+                    <article>
+                        <div class="project-card-header">
+                            <h2 class="project-card-title">Enzyme Classification Using Graphs</h2>
+                            <p class="project-card-dates">Jan 2026 - May 2026</p>
+                        </div>
+
+                        <p class="project-card-description">
+                            This project took the TUDataset ENZYMES dataset and compared machine learning methods based on the global aggregate graph statistics
+                            (such as eigenvector centrality, radius etc) with graph-based neural networks, specifically a GCN and a GAT. I primarily worked on
+                            architecting both of the neural networks in base pytorch. I think this project was one of the most fun I've done because getting in the
+                            weeds of how I want my neural network architecture built was a first-time for me. I'd worked with pre built architectures, tuning hyperparameters
+                            and measuring performance but this was my first time creating a neural network from scratch. In addition, I think building the convolutional
+                            and attention mechanisms gave me a better understanding of how neural nets work.
+                        </p>
+                    </article>
+                </a>
+
+                <a class="project-card" href="https://github.com/smarrapu05/stat636final" target="_blank" rel="noopener noreferrer">
+                    <article>
+                        <div class="project-card-header">
+                            <h2 class="project-card-title">Graph Based Protein Structure Analysis</h2>
+                            <p class="project-card-dates">Aug 2025 - Dec 2025</p>
+                        </div>
+
+                        <p class="project-card-description">
+                            This project was a general application of graph based statistical methods to identify changes in the structures of proteins. My section was
+                            directly comparing the structure of myoglobin and the hemoglobin alpha chain to identify differences in function. My results showed that the
+                            specific residue that allows hemoglobin to deposit oxygen (since myoglobin can only hold oxygen) is Tyrosine-140, which is a known result in the
+                            biological world, but was confirmed using Multiple Adjacency Spectral Analysis (MASE). This was my first foray into graph-based statistical methods
+                            and the fact I worked with real protein structures and got a real verified result was cool. I could talk about this project for hours and I hope
+                            to revisit it sometime in the future. At the very least work with MASE once again when I have the time or opportunity.
+                        </p>
+                    </article>
+                </a>
+
+                <a class="project-card" href="https://github.com/smarrapu05/stat482final" target="_blank" rel="noopener noreferrer">
+                    <article>
+                        <div class="project-card-header">
+                            <h2 class="project-card-title">Planes, <em>Trains</em>, and Automobiles</h2>
+                            <p class="project-card-dates">Aug 2025 - Dec 2025</p>
+                        </div>
+
+                        <p class="project-card-description">
+                            This was my undergraduate capstone, and it focused on the effects of rail transport in the EU and how it could affect the US through
+                            extrapolation. We tackled how trains affected three things: Travel Time, Emissions, and Safety. Our results found
+                            trains to be safer and emit less, which aligned with our hypotheses goin into the project. Travel time, however, was a little more nuanced
+                            with us finding the specific corridors that rail can help with to have a rather narrow distance range. Reflecting on it now, I think this project was
+                            a bit too large of an undertaking with too many different facets and data sources for an undergraduate project. But I don't think I regret it
+                            at all, it was my first time getting completely unique results from a completely unique (and rather large) set of data. Working with real
+                            data always seemed easy before I actually had to do it. I think this was a great experience for me and if there was anything I regret it was
+                            not using ggplot2 (embarassingly, I used to think base R was fine at this point).
+                        </p>
+                    </article>
+                </a>
+
+                <a class="project-card" href="https://github.com/smarrapu05/valPredictive" target="_blank" rel="noopener noreferrer">
+                    <article>
+                        <div class="project-card-header">
+                            <h2 class="project-card-title">VALORANT Predictive Model</h2>
+                            <p class="project-card-dates">Dec 2024</p>
+                        </div>
+
+                        <p class="project-card-description">
+                            This project was a basic logistic regression based predictive model for VALORANT, which was at the time (and still is) my favorite esport
+                            to watch. I was just getting the tools needed to create analyses myself, and so I took the opportunity that winter break to try to build my own
+                            dataset and create an analysis from it. I created my own python based web scraper for this project, and, since it was my first go at it, I
+                            believe it angered the vlr.gg devs (if any of you read this I'm quite sorry). I've grown my statistical and technical toolset a lot since
+                            then but I like look back on this as my first completely independent foray into statistical applications in the real world. And I'm glad to
+                            say it performed quite well!
+                        </p>
+                    </article>
+                </a>
+
+                <a class="project-card" href="https://github.com/smarrapu05/stat315final" target="_blank" rel="noopener noreferrer">
+                    <article>
+                        <div class="project-card-header">
+                            <h2 class="project-card-title">Sleep, Health and Lifestyle Analysis</h2>
+                            <p class="project-card-dates">Mar 2024 - Apr 2024</p>
+                        </div>
+
+                        <p class="project-card-description">
+                            My very first project! That's on my github at least. There's not much to talk about in the project content, it really was just taking
+                            a dataset from kaggle and doing a pretty straightforward analysis. I think the surrounding was a lot more interesting when I think about this
+                            project. STAT 315 is, in my opinion, one of the most important courses I'd taken at TAMU despite not being very heavy on the statistics. It was
+                            my first time creating docker images, managing git/hub and version control, and report writing. It built the wireframe for my technical skills
+                            outside of programming in R/Python. There's just not much to look at with the project itself unfortunately.
+                        </p>
+                    </article>
+                </a>
+
+            </section>
+
+
+        </main>
+    </body>
+</html>
